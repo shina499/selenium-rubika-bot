@@ -22,7 +22,7 @@ async function runBot() {
         console.log("✅ ورود تأیید شد! ادامه می‌دهیم...");
 
         // 3️⃣ جستجوی چت موردنظر
-        const chatName = 'MoM'; // نام چت را اینجا بگذار
+        const chatName = 'YOUR-CHAT-NAME'; // نام چت را اینجا بگذار
         console.log(`🔍 در حال جستجوی چت: "${chatName}" ...`);
 
         let searchBox = await driver.wait(until.elementLocated(By.xpath("//input[@placeholder='جستجو']")), 10000);
